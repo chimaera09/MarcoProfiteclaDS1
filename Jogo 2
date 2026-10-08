@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+
+    printf ("Novo Jogo\nEntrar\n\nOpções"); 
+   
+    int escolha, palpite;
+    scanf ("%d", &escolha);
+    printf ("%d Verificar", escolha);
+
+    if (palpite ==escolha);
+    
+    {
+        printf ("Ganhou")
+    
+        }
+
+    
+}
