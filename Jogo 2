@@ -2,18 +2,27 @@
 
 int main() {
 
-    printf ("Novo Jogo\nEntrar\n\nOpções"); 
+    printf ("Novo Jogo\nEntrar\n\n"); 
+    
    
-    int escolha, palpite;
+int escolha, palpite;
+    printf ("escolha um numero de 1 a 1000\n\n");
     scanf ("%d", &escolha);
-    printf ("%d Verificar", escolha);
+    printf ("palpite");
+    scanf ("%d", &palpite);
 
-    if (palpite ==escolha);
+if (palpite == escolha);
     
     {
-        printf ("Ganhou")
+        printf ("Ganhou !!!\n\n");
     
         }
-
     
+    else if (palpite < escolha) 
+             {
+        
+        printf ("o numero e maior");
+        
+    }
+    else printf ("o numero e menor");
 }
