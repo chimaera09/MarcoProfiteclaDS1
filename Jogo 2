@@ -11,18 +11,13 @@ int escolha, palpite;
     printf ("palpite");
     scanf ("%d", &palpite);
 
-if (palpite == escolha);
+if (palpite == escolha)
     
-    {
-        printf ("Ganhou !!!\n\n");
+    { printf ("Ganhou !!!\n\n"); }
     
-        }
-    
-    else if (palpite < escolha) 
-             {
-        
-        printf ("o numero e maior");
-        
-    }
+    else if (palpite < escolha)
+             
+    { printf ("o numero e maior"); }
+                        
     else printf ("o numero e menor");
 }
