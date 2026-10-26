@@ -13,7 +13,7 @@ contador = 0;
         {
             var[contador]=contador+1;
             printf ("var[%d",contador);
-            printf ("]=%d",var[contador]);
+            printf ("]=%d\n",var[contador]);
             contador++;        
         }
 } 
